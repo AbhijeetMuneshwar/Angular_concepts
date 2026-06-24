@@ -1,0 +1,27 @@
+<section class="concept-page">
+  <p class="eyebrow">Component lifecycle</p>
+  <h1>Hooks that manage component behavior</h1>
+  <p class="description">
+    Angular lifecycle hooks run at different stages of a component's life, from receiving inputs to cleanup before
+    removal.
+  </p>
+
+  <div class="card">
+    <h2>Lifecycle hook example</h2>
+    <pre><code>{{ lifecycleExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Key hooks</h2>
+    <ul>
+      <li><strong>ngOnChanges</strong> - runs when input properties change.</li>
+      <li><strong>ngOnInit</strong> - initializes logic after the component is created.</li>
+      <li><strong>ngDoCheck</strong> - runs during every change detection cycle.</li>
+      <li><strong>ngAfterContentInit</strong> - runs after projected content is initialized.</li>
+      <li><strong>ngAfterContentChecked</strong> - runs after projected content is checked.</li>
+      <li><strong>ngAfterViewInit</strong> - runs after the component's view and child views are initialized.</li>
+      <li><strong>ngAfterViewChecked</strong> - runs after the component's view and child views are checked.</li>
+      <li><strong>ngOnDestroy</strong> - performs cleanup before the component is destroyed.</li>
+    </ul>
+  </div>
+</section>

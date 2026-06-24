@@ -1,0 +1,26 @@
+<section class="concept-page">
+  <p class="eyebrow">Change detection</p>
+  <h1>Control how Angular updates views</h1>
+  <p class="description">
+    Change detection determines when Angular checks and updates the DOM for component state changes.
+  </p>
+
+  <div class="card">
+    <h2>Default Strategy</h2>
+    <p>Angular checks components and their children whenever change detection runs.</p>
+    <pre><code>{{ defaultExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>OnPush Strategy</h2>
+    <p>OnPush limits checks to input changes, events, or manual triggers, improving performance for many components.</p>
+    <pre><code>{{ onPushExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>ChangeDetectorRef</h2>
+    <p>ChangeDetectorRef gives you manual control over change detection with methods like markForCheck and
+      detectChanges.</p>
+    <pre><code>{{ cdRefExample }}</code></pre>
+  </div>
+</section>

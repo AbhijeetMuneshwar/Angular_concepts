@@ -1,0 +1,32 @@
+import { Routes } from '@angular/router';
+import { AngularSecurityComponent } from './components/angular-security.component';
+import { ChangeDetectionComponent } from './components/change-detection.component';
+import { DependencyInjectionComponent } from './components/dependency-injection.component';
+import { FormsComponent } from './components/forms.component';
+import { FundamentalsComponent } from './components/fundamentals.component';
+import { HomeComponent } from './components/home.component';
+import { HttpClientComponent } from './components/http-client.component';
+import { LifecycleComponent } from './components/lifecycle.component';
+import { PerformanceOptimizationComponent } from './components/performance-optimization.component';
+import { RoutingComponent } from './components/routing.component';
+import { RxjsComponent } from './components/rxjs.component';
+import { SignalsComponent } from './components/signals.component';
+import { StandaloneComponentsComponent } from './components/standalone-components.component';
+import { StateManagementComponent } from './components/state-management.component';
+
+export const routes: Routes = [
+    { path: '', component: HomeComponent },
+    { path: 'fundamentals', component: FundamentalsComponent },
+    { path: 'lifecycle', component: LifecycleComponent },
+    { path: 'dependency-injection', component: DependencyInjectionComponent },
+    { path: 'routing', component: RoutingComponent },
+    { path: 'forms', component: FormsComponent },
+    { path: 'rxjs', component: RxjsComponent },
+    { path: 'http-client', component: HttpClientComponent },
+    { path: 'state-management', component: StateManagementComponent },
+    { path: 'change-detection', component: ChangeDetectionComponent },
+    { path: 'signals', component: SignalsComponent },
+    { path: 'standalone-components', component: StandaloneComponentsComponent },
+    { path: 'performance-optimization', component: PerformanceOptimizationComponent },
+    { path: 'angular-security', component: AngularSecurityComponent }
+];

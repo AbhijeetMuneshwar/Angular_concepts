@@ -1,0 +1,19 @@
+<section class="hero">
+  <div class="intro">
+    <p class="eyebrow">Angular learning hub</p>
+    <h1>Angular Concepts</h1>
+    <p class="subtitle">
+      A practical guide to the core concepts of Angular, with each topic explained through a dedicated example page.
+    </p>
+  </div>
+
+  <div class="concept-grid" aria-label="Angular concept overview">
+    @for (concept of concepts; track concept.title) {
+    <a class="concept-card" [routerLink]="concept.route">
+      <h2>{{ concept.title }}</h2>
+      <p>{{ concept.description }}</p>
+      <span>Open example →</span>
+    </a>
+    }
+  </div>
+</section>

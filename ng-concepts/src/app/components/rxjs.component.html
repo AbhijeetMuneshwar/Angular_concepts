@@ -1,0 +1,50 @@
+<section class="concept-page">
+  <p class="eyebrow">RxJS</p>
+  <h1>Streams, observables, and operators</h1>
+  <p class="description">
+    RxJS helps Angular manage asynchronous events through observables, subjects, and a rich set of operators.
+  </p>
+
+  <div class="card">
+    <h2>Observable</h2>
+    <p>An Observable represents a stream of values that can be observed over time.</p>
+    <pre><code>{{ codeExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Observer</h2>
+    <p>An Observer is the consumer of an Observable and handles next, error, and complete notifications.</p>
+    <pre><code>{{ observerExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Subject</h2>
+    <p>A Subject is both an Observable and an Observer, allowing values to be multicasted to many subscribers.</p>
+    <pre><code>{{ subjectExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>BehaviorSubject</h2>
+    <p>A BehaviorSubject stores the latest value and emits it immediately to new subscribers.</p>
+    <pre><code>{{ behaviorSubjectExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>ReplaySubject</h2>
+    <p>A ReplaySubject replays a specified number of previous values to new subscribers.</p>
+    <pre><code>{{ replaySubjectExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>AsyncSubject</h2>
+    <p>An AsyncSubject emits only the last value when the stream completes.</p>
+    <pre><code>{{ asyncSubjectExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Operators</h2>
+    <p>RxJS operators transform, filter, react to, and combine streams. The examples below show common usage for
+      mapping, filtering, side effects, switching, combining, error handling, and sharing.</p>
+    <pre><code>{{ operatorsExample }}</code></pre>
+  </div>
+</section>

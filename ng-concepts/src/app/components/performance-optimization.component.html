@@ -1,0 +1,63 @@
+<section class="concept-page">
+  <p class="eyebrow">Performance optimization</p>
+  <h1>Make Angular apps faster and lighter</h1>
+  <p class="description">
+    Performance optimization focuses on reducing load time, limiting unnecessary work, and improving the experience for
+    users on slow or mobile networks.
+  </p>
+
+  <div class="card">
+    <h2>Lazy loading</h2>
+    <p>Lazy loading defers feature modules or routes until they are needed, which reduces the initial bundle size.</p>
+    <pre><code>{{ lazyLoadingExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Code splitting</h2>
+    <p>Code splitting breaks the application into smaller chunks so only the required code is downloaded.</p>
+    <pre><code>{{ codeSplittingExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Tree shaking</h2>
+    <p>Tree shaking removes unused code during the build, shrinking the final bundle.</p>
+    <pre><code>{{ treeShakingExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>OnPush change detection</h2>
+    <p>OnPush helps Angular avoid unnecessary checks for components that mostly depend on input changes.</p>
+    <pre><code>{{ onPushExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Signals</h2>
+    <p>Signals provide a more direct and efficient way to track reactive state in Angular.</p>
+    <pre><code>{{ signalsExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>TrackBy</h2>
+    <p>trackBy improves rendering performance for lists by helping Angular reuse DOM nodes when items change.</p>
+    <pre><code>{{ trackByExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Virtual scrolling</h2>
+    <p>Virtual scrolling renders only the visible rows of large lists, which keeps the UI responsive.</p>
+    <pre><code>{{ virtualScrollingExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Bundle optimization</h2>
+    <p>Optimized build settings reduce file size and improve startup speed.</p>
+    <pre><code>{{ bundleOptimizationExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>SSR and hydration</h2>
+    <p>Server-side rendering and hydration improve first-page load performance and user experience.</p>
+    <pre><code>{{ ssrExample }}</code></pre>
+    <pre><code>{{ hydrationExample }}</code></pre>
+  </div>
+</section>

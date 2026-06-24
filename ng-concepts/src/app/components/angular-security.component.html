@@ -1,0 +1,47 @@
+<section class="concept-page">
+  <p class="eyebrow">Angular security</p>
+  <h1>Protect apps from common web risks</h1>
+  <p class="description">
+    Angular security covers the practices and APIs that help prevent XSS, manage trusted content, protect routes, and
+    secure API access.
+  </p>
+
+  <div class="card">
+    <h2>XSS prevention</h2>
+    <p>Angular templates escape values by default, which reduces the risk of cross-site scripting attacks.</p>
+    <pre><code>{{ xssExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Sanitization</h2>
+    <p>Sanitization ensures untrusted values are treated safely before being inserted into the DOM.</p>
+    <pre><code>{{ sanitizationExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>DomSanitizer</h2>
+    <p>DomSanitizer helps you explicitly trust URLs, HTML, styles, or scripts when the content is intentionally safe.
+    </p>
+    <pre><code>{{ domSanitizerExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>JWT security</h2>
+    <p>JWTs are commonly used for authenticated requests, and they should be sent securely over HTTPS with short-lived
+      tokens.</p>
+    <pre><code>{{ jwtExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Route protection</h2>
+    <p>Guards protect sensitive routes and restrict access to authenticated or authorized users.</p>
+    <pre><code>{{ routeProtectionExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>CSP</h2>
+    <p>Content Security Policy adds another layer of defense by limiting where scripts, styles, and other resources can
+      be loaded from.</p>
+    <pre><code>{{ cspExample }}</code></pre>
+  </div>
+</section>

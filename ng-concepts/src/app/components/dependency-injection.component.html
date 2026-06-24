@@ -1,0 +1,37 @@
+<section class="concept-page">
+  <p class="eyebrow">Dependency injection</p>
+  <h1>Services, providers, and shared state</h1>
+  <p class="description">
+    Dependency Injection lets Angular provide services where they are needed while keeping components focused on the UI.
+  </p>
+
+  <div class="card">
+    <h2>Services</h2>
+    <p>Services hold reusable logic such as API calls, shared state, or business rules.</p>
+    <pre><code>{{ codeExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Providers</h2>
+    <p>Providers tell Angular how to create and inject a dependency. You can register a provider at the component,
+      module, or application level.</p>
+    <pre><code>{{ providerExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Injector hierarchy</h2>
+    <p>Angular creates injectors at different levels. A service provided at a child injector can override one provided
+      at a parent injector.</p>
+  </div>
+
+  <div class="card">
+    <h2>Singleton services</h2>
+    <p>When a service is provided in root, Angular creates a single shared instance for the whole app.</p>
+  </div>
+
+  <div class="card">
+    <h2>Injection tokens</h2>
+    <p>Injection tokens provide a flexible way to inject values or implementations when a class token is not enough.</p>
+    <pre><code>{{ tokenExample }}</code></pre>
+  </div>
+</section>

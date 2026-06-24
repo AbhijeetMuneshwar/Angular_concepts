@@ -1,0 +1,43 @@
+<section class="concept-page">
+  <p class="eyebrow">HTTP client</p>
+  <h1>Communicate with APIs and manage errors</h1>
+  <p class="description">
+    Angular's HttpClient module enables CRUD operations, interceptors, and secure token-based authentication.
+  </p>
+
+  <div class="card">
+    <h2>HttpClient</h2>
+    <p>HttpClient is Angular's built-in service for communicating with backend APIs over HTTP.</p>
+    <pre><code>{{ codeExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>GET, POST, PUT, DELETE</h2>
+    <p>These methods cover the standard CRUD lifecycle for resource-based APIs.</p>
+    <pre><code>{{ crudExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Error Handling</h2>
+    <p>Errors can be handled centrally with RxJS operators like catchError and throwError.</p>
+    <pre><code>{{ errorExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Interceptors</h2>
+    <p>Interceptors modify outgoing requests and incoming responses, such as attaching authorization headers.</p>
+    <pre><code>{{ interceptorExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>JWT Authentication</h2>
+    <p>JWT tokens are commonly sent in the Authorization header to secure protected API endpoints.</p>
+    <pre><code>{{ jwtExample }}</code></pre>
+  </div>
+
+  <div class="card">
+    <h2>Retry Mechanism</h2>
+    <p>Retry logic can be used to automatically retry failed HTTP requests when the failure is transient.</p>
+    <pre><code>{{ retryExample }}</code></pre>
+  </div>
+</section>

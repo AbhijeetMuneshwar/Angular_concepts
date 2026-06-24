@@ -1,0 +1,49 @@
+:host {
+  display: block;
+}
+
+.concept-page {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 0.8rem;
+  color: #7dd3fc;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  color: #cbd5e1;
+  line-height: 1.7;
+}
+
+.card,
+.topics {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1rem;
+  padding: 1.2rem;
+}
+
+pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #020617;
+  color: #e2e8f0;
+}
+
+ul {
+  display: grid;
+  gap: 0.6rem;
+  padding-left: 1.2rem;
+  color: #cbd5e1;
+}
